@@ -1,0 +1,33 @@
+{
+    "name": "Piano",
+    "version": "1.1",
+    "launch_path": "index.html",
+    "icons": {
+        "60": "/img/60.png",
+        "128": "/img/128.png",
+        "256": "/img/256.png"
+    },
+    "developer": {
+        "name": "DBlopers",
+        "url": "http://dblopers.tk"
+    },
+    "description": "Free digital piano for everyone's entertainment. ",
+    "locales": {
+        "es": {
+            "description": "Piano digital grátis para tu entretenimiento",
+            "developer": {
+                "name": "DBlopers",
+                "url": "http://dblopers.tk"
+            }
+        },
+        "en": {
+            "description": "Free digital piano for everyone's entertainment. ",
+            "developer": {
+                "name": "DBlopers",
+                "url": "http://dblopers.tk"
+            }
+        }
+    },
+    "default_locale": "en",
+    "fullscreen": "true"
+}

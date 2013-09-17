@@ -1,0 +1,24 @@
+$(document).ready(function() {
+  //$('.teclab').click(function(){
+$(".teclab").mouseup(function(){ $(this).removeClass("teclab_press");  });
+$(".teclan").mouseup(function(){ $(this).removeClass("teclan_press");  });
+
+  /*$("#1").mousedown(function(){$(this).addClass("teclab_press");  var audio = document.getElementById('tone-1A'); audio.currentTime=0; audio.play(); });
+   $("#2").mousedown(function(){$(this).addClass("teclab_press");  var audio = document.getElementById('tone-1B'); audio.currentTime=0; audio.play(); });*/
+   $("#1").mousedown(function(){$(this).addClass("teclab_press");  var audio = document.getElementById('tone-3C'); audio.currentTime=0; audio.play(); });
+   $("#2").mousedown(function(){$(this).addClass("teclab_press");  var audio = document.getElementById('tone-3D'); audio.currentTime=0; audio.play(); });
+   $("#3").mousedown(function(){$(this).addClass("teclab_press");  var audio = document.getElementById('tone-3E'); audio.currentTime=0; audio.play(); });
+   $("#4").mousedown(function(){$(this).addClass("teclab_press");  var audio = document.getElementById('tone-3F'); audio.currentTime=0; audio.play(); });
+   $("#5").mousedown(function(){$(this).addClass("teclab_press");  var audio = document.getElementById('tone-3G'); audio.currentTime=0; audio.play(); });
+   $("#6").mousedown(function(){$(this).addClass("teclab_press");  var audio = document.getElementById('tone-3A'); audio.currentTime=0; audio.play(); });
+   $("#7").mousedown(function(){$(this).addClass("teclab_press");  var audio = document.getElementById('tone-3B'); audio.currentTime=0; audio.play(); });
+   $("#8").mousedown(function(){$(this).addClass("teclab_press");  var audio = document.getElementById('tone-4C'); audio.currentTime=0; audio.play(); });
+   
+  $("#1a").mousedown(function(){$(this).addClass("teclan_press");var audio = document.getElementById('tone-3Cs'); audio.currentTime=0; audio.play(); });
+    $("#2a").mousedown(function(){$(this).addClass("teclan_press");var audio = document.getElementById('tone-3Ds'); audio.currentTime=0; audio.play(); });
+      $("#3a").mousedown(function(){$(this).addClass("teclan_press");var audio = document.getElementById('tone-3Fs'); audio.currentTime=0; audio.play(); });       
+          $("#5a").mousedown(function(){$(this).addClass("teclan_press");var audio = document.getElementById('tone-3Gs'); audio.currentTime=0; audio.play(); });
+            $("#6a").mousedown(function(){$(this).addClass("teclan_press");var audio = document.getElementById('tone-3As'); audio.currentTime=0; audio.play(); });
+              $("#7a").mousedown(function(){$(this).addClass("teclan_press");var audio = document.getElementById('tone-4C'); audio.currentTime=0; audio.play(); });
+
+});

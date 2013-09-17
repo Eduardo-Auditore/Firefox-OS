@@ -1,0 +1,17 @@
+{
+  "name": "Piano",
+  "package_path": "http://mexkey.tk/firefox/package.zip",
+  "version": "1.0",
+  "size": 1043945,
+  "release_notes": "App developed in Campus Party MX4",
+  "developer": {
+    "name": "DBlopers",
+    "url": "http://www.dblopers.tk/"
+  },
+  "installs_allowed_from": ["*"],
+  "icons": {
+        "60": "/img/60.png",
+        "128": "/img/128.png",
+        "256": "/img/256.png"
+    }
+}
